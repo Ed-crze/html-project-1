@@ -4,54 +4,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
 
-<header>
-  <h1>Your Cart</h1>
-  <nav>
+<header id = "main-header">
+  <div class = "container">
+  <h1>Enron</h1>
+  </div>
+  </header>
+<nav id = "navbar">
+  <div class = "container">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="shop.html">Shop</a></li>
       <li><a href="contact.html">Contact Us</a></li>
       <li><a href="Cart.html">Cart</a></li>
     </ul>
-  </nav>
-</header>
-
-
+  </div>
+</nav>
 <main>
+
   <h2>Items in Your Cart</h2>
 
   <section>
     <article>
       <h3>Product 1</h3>
       <p>Type: Electronics</p>
-      <p>Price: $29.99</p>
-      <button>Remove</button>
+      <p>Price: $2,000.99</p>
+      <button class="remove-button">Remove</button>
     </article>
 
     <article>
       <h3>Product 2</h3>
       <p>Type: Clothing</p>
       <p>Price: $49.99</p>
-      <button>Remove</button>
+      <button class="remove-button">Remove</button>
     </article>
 
     <article>
       <h3>Product 3</h3>
       <p>Type: Home Goods</p>
       <p>Price: $19.99</p>
-      <button>Remove</button>
+      <button class="remove-button">Remove</button>
+    </article>
+
+    <article>
+      <h3>Product 4</h3>
+      <p>Type: Electronics</p>
+      <p>Price: $700.99</p>
+      <button class="remove-button">Remove</button>
     </article>
   </section>
-
-  <h3>Total: $99.97</h3>
+   <div class = "total-checkout">
+  <h3>Total:$2,815.97</h3>
   <a href="https://www.wellsfargo.com"><button>Proceed to checkout</button></a>
+   </div>
 </main>
 
-<footer>
-  <p>Copyright 2024 &copy;Eddystore all rights reserved </p>
+<footer class = "footer">
+  <div class = "container">
+    <div class = "row">
+      <div class = "footer-col">
+        <h4>company </h4>
+        <ul>
+          <li> <a href ="#">about us </a></li>
+          <li> <a href ="#">our services </a></li>
+          <li> <a href ="#">privacy </a></li>
+          <li> <a href ="#">affiliate links </a></li>
+
+        </ul>
+      </div>
+      <div class = "footer-col">
+        <h4>get help </h4>
+        <ul>
+          <li> <a href ="#">FAQ</a></li>
+          <li> <a href ="#">shipping </a></li>
+          <li> <a href ="#">returns </a></li>
+          <li> <a href ="#">payment options </a></li>
+
+        </ul>
+      </div>
+      <div class = "footer-col">
+        <h4> online shop </h4>
+        <ul>
+          <li> <a href ="#">gadgets</a></li>
+          <li> <a href ="#">furniture </a></li>
+          <li> <a href ="#">Groceries</a></li>
+          <li> <a href ="#">utensils  </a></li>
+        </ul>
+      </div>
+      <div class = "footer-col">
+        <h4>follow us </h4>
+        <div class = "social-links ">
+          <a href ="#"><i class ="fab fa-facebook-f"></i></a>
+          <a href ="#"><i class ="fab fa-twitter"></i></a>
+          <a href ="#"><i class ="fab fa-instagram"></i></a>
+          <a href ="#"><i class ="fab fa-linkedin"></i></a>
+          <a href ="#"><i class ="fab fa-pinterest"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
 </body>
